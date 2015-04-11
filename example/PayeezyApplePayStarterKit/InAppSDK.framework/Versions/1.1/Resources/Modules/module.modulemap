@@ -1,0 +1,6 @@
+framework module InAppSDK {
+  umbrella header "InAppSDK.h"
+
+  export *
+  module * { export * }
+}
