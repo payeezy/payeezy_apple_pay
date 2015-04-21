@@ -25,4 +25,3 @@ FOUNDATION_EXPORT const unsigned char MockAcadiaAPIsersionString[];
 #import <MockAcadiaAPIs/PKPaymentToken.h>
 #import <MockAcadiaAPIs/PKShippingMethod.h>
 #import <MockAcadiaAPIs/PKPaymentAuthorizationViewControllerDelegate.h>
-#import <MockAcadiaAPIs/RewrapService.h>
