@@ -15,12 +15,12 @@ For more details on Apple pay. please visit  [https://www.apple.com/apple-pay/](
 #Apple Pay Supported Merchant domicile country 
 Now apple pay is supported in UK as well as US. For more information  [click here](https://developer.payeezy.com/select-your-integration-method) 
 
-Use following code and country for UK 
-\#define CURRENCY_CODE @“GBP”
+Use following code and country for UK <br/>
+\#define CURRENCY_CODE @“GBP” <br/>
 \#define COUNTRY_CODE @“UK" 
 
-and following code and country for US
-\#define CURRENCY_CODE @"USD"
+and following code and country for US<br/>
+\#define CURRENCY_CODE @"USD"<br/>
 \#define COUNTRY_CODE @"US"
 
 # Getting Started with Payeezy
