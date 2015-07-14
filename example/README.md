@@ -1,7 +1,7 @@
 # Example details
 
-README for Payeezy Apple Pay(TM) Starter Kit v 1.1
-(c) 2014 First Data
+README for Payeezy Apple Pay(TM) Starter Kit v 2.0
+(c) 2015 First Data
 
 ## INTRODUCTION
 
@@ -25,7 +25,6 @@ The Payeezy Apple Pay SDK is implemented as two iOS frameworks that are included
 To facilitate testing your Apple Pay integration within the Xcode simulator and
 on non-Apple Pay-enabled devices (i.e. anything other than an iPhone 6/+, iPad Air 2,
 or iPad Mini 3) we also provide a framework that mocks the Apple Pay functionality.
-This MockAcadiaAPIs.framework is automatically linked when building the testing target (see below).
 
 
 ## BUILDING THE SAMPLE APP
