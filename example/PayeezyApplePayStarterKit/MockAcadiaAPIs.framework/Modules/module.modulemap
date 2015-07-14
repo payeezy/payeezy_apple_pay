@@ -1,6 +1,0 @@
-framework module MockAcadiaAPIs {
-  umbrella header "MockAcadiaAPIs.h"
-
-  export *
-  module * { export * }
-}
