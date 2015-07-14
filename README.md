@@ -10,10 +10,11 @@ User Action: Buyer taps the Pay button in the App and selects the payment card a
 5. Payeezy responds back to the Merchant App (Through the SDK) with either an approval or declination
 6. If provided, Payeezy sends out a transaction receipt to the merchant URL (Via a Webhook)
 
-For more details on Apple pay. please visit  [https://www.apple.com/apple-pay/](https://www.apple.com/apple-pay/)
+For more information on Apple Pay - US [click here](http://www.apple.com/apple-pay/) 
+and For Apple Pay - UK [click here](https://www.apple.com/uk/apple-pay/) 
 
-#Apple Pay Supported ``Merchant's`` domicile country 
-Now apple pay is supported in UK as well as US. For more information  [click here](https://developer.payeezy.com/select-your-integration-method) 
+#Apple Pay Supported Merchant\'s domicile country 
+Now apple pay is supported in UK as well as US. For more information on Payeezy Supported method/API [click here](https://developer.payeezy.com/select-your-integration-method) 
 
 Use following code and country for UK <br/>
 \#define CURRENCY_CODE @“GBP” <br/>
@@ -22,6 +23,7 @@ Use following code and country for UK <br/>
 and following code and country for US<br/>
 \#define CURRENCY_CODE @"USD"<br/>
 \#define COUNTRY_CODE @"US"
+
 
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
