@@ -13,7 +13,7 @@ User Action: Buyer taps the Pay button in the App and selects the payment card a
 For more information on Apple Pay - US [click here](http://www.apple.com/apple-pay/) 
 and For Apple Pay - UK [click here](https://www.apple.com/uk/apple-pay/) 
 
-#Apple Pay Supported Merchant\'s domicile country 
+#``Apple Pay Supported Merchant's domicile country`` 
 Now apple pay is supported in UK as well as US. For more information on Payeezy Supported method/API [click here](https://developer.payeezy.com/select-your-integration-method) 
 
 Use following code and country for UK <br/>
