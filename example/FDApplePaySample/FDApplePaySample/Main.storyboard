@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ApplePayBTN@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="j7F-MB-0zg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="368" id="h83-43-tme">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="345"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="128" id="mey-es-LAc">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="106"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="h83-43-tme"/>
+                                        <exclude reference="mey-es-LAc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="h83-43-tme"/>
+                                        <include reference="mey-es-LAc"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ENTER AMOUNT" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7R9-3y-wGm">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NXe-SP-t1H">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="Auth"/>
+                                    <segment title="Purchase"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7R9-3y-wGm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="0Ib-hz-Uva">
+                                <variation key="heightClass=regular-widthClass=compact" constant="101"/>
+                            </constraint>
+                            <constraint firstItem="NXe-SP-t1H" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="89" id="A9w-r4-eZL"/>
+                            <constraint firstItem="7R9-3y-wGm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="34" id="Byc-DS-shC">
+                                <variation key="heightClass=regular-widthClass=compact" constant="49"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="j7F-MB-0zg" secondAttribute="trailing" constant="27" id="DTW-zA-AvH">
+                                <variation key="heightClass=regular-widthClass=compact" constant="11"/>
+                            </constraint>
+                            <constraint firstItem="j7F-MB-0zg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="28" id="ELf-1h-wAd">
+                                <variation key="heightClass=regular-widthClass=compact" constant="12"/>
+                            </constraint>
+                            <constraint firstItem="7R9-3y-wGm" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Kgl-Lk-Sv9"/>
+                            <constraint firstItem="j7F-MB-0zg" firstAttribute="top" secondItem="NXe-SP-t1H" secondAttribute="bottom" constant="58" id="Tor-oV-Ejn"/>
+                            <constraint firstItem="NXe-SP-t1H" firstAttribute="top" secondItem="7R9-3y-wGm" secondAttribute="bottom" constant="26" id="XlP-gW-ynW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NXe-SP-t1H" secondAttribute="trailing" constant="89" id="oKA-6H-vb6"/>
+                            <constraint firstItem="j7F-MB-0zg" firstAttribute="top" secondItem="7R9-3y-wGm" secondAttribute="bottom" constant="138" id="rMd-JO-vgh">
+                                <variation key="heightClass=regular-widthClass=compact" constant="112"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="j7F-MB-0zg"/>
+                                <exclude reference="7R9-3y-wGm"/>
+                                <exclude reference="NXe-SP-t1H"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0Ib-hz-Uva"/>
+                                <exclude reference="Byc-DS-shC"/>
+                                <exclude reference="Kgl-Lk-Sv9"/>
+                                <exclude reference="A9w-r4-eZL"/>
+                                <exclude reference="XlP-gW-ynW"/>
+                                <exclude reference="oKA-6H-vb6"/>
+                                <exclude reference="DTW-zA-AvH"/>
+                                <exclude reference="ELf-1h-wAd"/>
+                                <exclude reference="Tor-oV-Ejn"/>
+                                <exclude reference="rMd-JO-vgh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="j7F-MB-0zg"/>
+                                <include reference="7R9-3y-wGm"/>
+                                <include reference="NXe-SP-t1H"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0Ib-hz-Uva"/>
+                                <include reference="Byc-DS-shC"/>
+                                <include reference="Kgl-Lk-Sv9"/>
+                                <include reference="A9w-r4-eZL"/>
+                                <include reference="XlP-gW-ynW"/>
+                                <include reference="oKA-6H-vb6"/>
+                                <include reference="DTW-zA-AvH"/>
+                                <include reference="ELf-1h-wAd"/>
+                                <include reference="Tor-oV-Ejn"/>
+                                <include reference="rMd-JO-vgh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imgButton" destination="j7F-MB-0zg" id="Ol8-La-JXj"/>
+                        <outlet property="segTransType" destination="NXe-SP-t1H" id="1JO-Ev-BVw"/>
+                        <outlet property="txtAmount" destination="7R9-3y-wGm" id="5wP-m2-jv2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="315"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ApplePayBTN@3x.png" width="420" height="96"/>
+    </resources>
+</document>
