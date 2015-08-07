@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C8B2711975B68A0077F88E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C8B2701975B68A0077F88E /* Entitlements.plist */; };
+		341675D2195C742D00FDB339 /* TheDemoMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = 341675D1195C742D00FDB339 /* TheDemoMerchant.m */; };
+		341675D6195C743A00FDB339 /* QSRCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 341675D5195C743A00FDB339 /* QSRCustomer.m */; };
+		341675DA195C744A00FDB339 /* QSROrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 341675D9195C744A00FDB339 /* QSROrder.m */; };
+		341675DE195C745700FDB339 /* QSROrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 341675DD195C745700FDB339 /* QSROrderItem.m */; };
+		3455A26B19589C0600C4A3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455A26A19589C0600C4A3AB /* main.m */; };
+		3455A26E19589C0600C4A3AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455A26D19589C0600C4A3AB /* AppDelegate.m */; };
+		3455A27619589C0600C4A3AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3455A27519589C0600C4A3AB /* Images.xcassets */; };
+		34E20A3A195C92860069091C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E20A39195C92860069091C /* Main_iPhone.storyboard */; };
+		5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69AF1B6FBECB0035F60D /* StoreKit.framework */; };
+		5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */; };
+		5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */; };
+		5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BA1B6FC52C0035F60D /* SystemConfiguration.framework */; };
+		5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BC1B6FC5330035F60D /* PassKit.framework */; };
+		5C9A69CB1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9A69CA1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png */; };
+		9EE0DA251972D05E00DF4A71 /* QSRBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA211972D05D00DF4A71 /* QSRBadgeView.m */; };
+		9EE0DA261972D05E00DF4A71 /* QSROrderItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA231972D05E00DF4A71 /* QSROrderItemViewCell.m */; };
+		9EE0DA2F1972D0F400DF4A71 /* MerchantMakePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA2C1972D0F400DF4A71 /* MerchantMakePaymentViewController.m */; };
+		9EE0DA301972D0F400DF4A71 /* QSROrderItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA2E1972D0F400DF4A71 /* QSROrderItemsViewController.m */; };
+		D42935EB19BCAFC800731021 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D42935EA19BCAFC800731021 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C8B2701975B68A0077F88E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		341675C1195C733E00FDB339 /* QSRDemoConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSRDemoConstants.h; sourceTree = "<group>"; };
+		341675D0195C742D00FDB339 /* TheDemoMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheDemoMerchant.h; sourceTree = "<group>"; };
+		341675D1195C742D00FDB339 /* TheDemoMerchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheDemoMerchant.m; sourceTree = "<group>"; };
+		341675D4195C743A00FDB339 /* QSRCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSRCustomer.h; sourceTree = "<group>"; };
+		341675D5195C743A00FDB339 /* QSRCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSRCustomer.m; sourceTree = "<group>"; };
+		341675D8195C744A00FDB339 /* QSROrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSROrder.h; sourceTree = "<group>"; };
+		341675D9195C744A00FDB339 /* QSROrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSROrder.m; sourceTree = "<group>"; };
+		341675DC195C745700FDB339 /* QSROrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSROrderItem.h; sourceTree = "<group>"; };
+		341675DD195C745700FDB339 /* QSROrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSROrderItem.m; sourceTree = "<group>"; };
+		3455A26519589C0600C4A3AB /* FD QSR SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FD QSR SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3455A26919589C0600C4A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3455A26A19589C0600C4A3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3455A26C19589C0600C4A3AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3455A26D19589C0600C4A3AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3455A27519589C0600C4A3AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Views/Images.xcassets; sourceTree = "<group>"; };
+		34E20A39195C92860069091C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = Views/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5C9A69AF1B6FBECB0035F60D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppSDK.framework; sourceTree = "<group>"; };
+		5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayeezyClient.framework; sourceTree = "<group>"; };
+		5C9A69BA1B6FC52C0035F60D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5C9A69BC1B6FC5330035F60D /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		5C9A69CA1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Payeezy-DevelopersLogo_Horz-3.png"; sourceTree = "<group>"; };
+		9EE0DA201972D05D00DF4A71 /* QSRBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSRBadgeView.h; path = Views/QSRBadgeView.h; sourceTree = "<group>"; };
+		9EE0DA211972D05D00DF4A71 /* QSRBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSRBadgeView.m; path = Views/QSRBadgeView.m; sourceTree = "<group>"; };
+		9EE0DA221972D05E00DF4A71 /* QSROrderItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSROrderItemViewCell.h; path = Views/QSROrderItemViewCell.h; sourceTree = "<group>"; };
+		9EE0DA231972D05E00DF4A71 /* QSROrderItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSROrderItemViewCell.m; path = Views/QSROrderItemViewCell.m; sourceTree = "<group>"; };
+		9EE0DA2B1972D0F400DF4A71 /* MerchantMakePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MerchantMakePaymentViewController.h; path = Controllers/MerchantMakePaymentViewController.h; sourceTree = "<group>"; };
+		9EE0DA2C1972D0F400DF4A71 /* MerchantMakePaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MerchantMakePaymentViewController.m; path = Controllers/MerchantMakePaymentViewController.m; sourceTree = "<group>"; };
+		9EE0DA2D1972D0F400DF4A71 /* QSROrderItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSROrderItemsViewController.h; path = Controllers/QSROrderItemsViewController.h; sourceTree = "<group>"; };
+		9EE0DA2E1972D0F400DF4A71 /* QSROrderItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSROrderItemsViewController.m; path = Controllers/QSROrderItemsViewController.m; sourceTree = "<group>"; };
+		D42935EA19BCAFC800731021 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3455A26219589C0600C4A3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */,
+				5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */,
+				5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */,
+				5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */,
+				5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3455A25C19589C0600C4A3AB = {
+			isa = PBXGroup;
+			children = (
+				D42935EA19BCAFC800731021 /* Settings.bundle */,
+				18C8B2701975B68A0077F88E /* Entitlements.plist */,
+				3455A26719589C0600C4A3AB /* FD_QSR_SDK_Demo */,
+				9E69C4CC196981610048E102 /* Frameworks */,
+				3455A26619589C0600C4A3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3455A26619589C0600C4A3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3455A26519589C0600C4A3AB /* FD QSR SDK Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3455A26719589C0600C4A3AB /* FD_QSR_SDK_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3455A28B19589C1600C4A3AB /* Models */,
+				3455A28C19589C1A00C4A3AB /* Views */,
+				3455A28D19589C1F00C4A3AB /* Controllers */,
+				3455A26819589C0600C4A3AB /* Supporting Files */,
+			);
+			path = FD_QSR_SDK_Demo;
+			sourceTree = "<group>";
+		};
+		3455A26819589C0600C4A3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9A69CA1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png */,
+				3455A26919589C0600C4A3AB /* Info.plist */,
+				3455A26A19589C0600C4A3AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3455A28B19589C1600C4A3AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				341675C1195C733E00FDB339 /* QSRDemoConstants.h */,
+				3455A26C19589C0600C4A3AB /* AppDelegate.h */,
+				3455A26D19589C0600C4A3AB /* AppDelegate.m */,
+				341675D0195C742D00FDB339 /* TheDemoMerchant.h */,
+				341675D1195C742D00FDB339 /* TheDemoMerchant.m */,
+				341675D4195C743A00FDB339 /* QSRCustomer.h */,
+				341675D5195C743A00FDB339 /* QSRCustomer.m */,
+				341675D8195C744A00FDB339 /* QSROrder.h */,
+				341675D9195C744A00FDB339 /* QSROrder.m */,
+				341675DC195C745700FDB339 /* QSROrderItem.h */,
+				341675DD195C745700FDB339 /* QSROrderItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3455A28C19589C1A00C4A3AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34E20A39195C92860069091C /* Main_iPhone.storyboard */,
+				9EE0DA201972D05D00DF4A71 /* QSRBadgeView.h */,
+				9EE0DA211972D05D00DF4A71 /* QSRBadgeView.m */,
+				9EE0DA221972D05E00DF4A71 /* QSROrderItemViewCell.h */,
+				9EE0DA231972D05E00DF4A71 /* QSROrderItemViewCell.m */,
+				3455A27519589C0600C4A3AB /* Images.xcassets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3455A28D19589C1F00C4A3AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EE0DA2B1972D0F400DF4A71 /* MerchantMakePaymentViewController.h */,
+				9EE0DA2C1972D0F400DF4A71 /* MerchantMakePaymentViewController.m */,
+				9EE0DA2D1972D0F400DF4A71 /* QSROrderItemsViewController.h */,
+				9EE0DA2E1972D0F400DF4A71 /* QSROrderItemsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9E69C4CC196981610048E102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9A69BC1B6FC5330035F60D /* PassKit.framework */,
+				5C9A69BA1B6FC52C0035F60D /* SystemConfiguration.framework */,
+				5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */,
+				5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */,
+				5C9A69AF1B6FBECB0035F60D /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3455A26419589C0600C4A3AB /* Apple Pay Payeezy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3455A28519589C0600C4A3AB /* Build configuration list for PBXNativeTarget "Apple Pay Payeezy" */;
+			buildPhases = (
+				3455A26119589C0600C4A3AB /* Sources */,
+				3455A26219589C0600C4A3AB /* Frameworks */,
+				3455A26319589C0600C4A3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple Pay Payeezy";
+			productName = FD_QSR_SDK_Demo;
+			productReference = 3455A26519589C0600C4A3AB /* FD QSR SDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3455A25D19589C0600C4A3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "First Data Corporation";
+				TargetAttributes = {
+					3455A26419589C0600C4A3AB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = DAHGTV492K;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3455A26019589C0600C4A3AB /* Build configuration list for PBXProject "Apple Pay Payeezy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3455A25C19589C0600C4A3AB;
+			productRefGroup = 3455A26619589C0600C4A3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3455A26419589C0600C4A3AB /* Apple Pay Payeezy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3455A26319589C0600C4A3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C8B2711975B68A0077F88E /* Entitlements.plist in Resources */,
+				D42935EB19BCAFC800731021 /* Settings.bundle in Resources */,
+				3455A27619589C0600C4A3AB /* Images.xcassets in Resources */,
+				34E20A3A195C92860069091C /* Main_iPhone.storyboard in Resources */,
+				5C9A69CB1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3455A26119589C0600C4A3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341675DE195C745700FDB339 /* QSROrderItem.m in Sources */,
+				9EE0DA261972D05E00DF4A71 /* QSROrderItemViewCell.m in Sources */,
+				341675D6195C743A00FDB339 /* QSRCustomer.m in Sources */,
+				341675DA195C744A00FDB339 /* QSROrder.m in Sources */,
+				3455A26E19589C0600C4A3AB /* AppDelegate.m in Sources */,
+				9EE0DA301972D0F400DF4A71 /* QSROrderItemsViewController.m in Sources */,
+				9EE0DA2F1972D0F400DF4A71 /* MerchantMakePaymentViewController.m in Sources */,
+				341675D2195C742D00FDB339 /* TheDemoMerchant.m in Sources */,
+				9EE0DA251972D05E00DF4A71 /* QSRBadgeView.m in Sources */,
+				3455A26B19589C0600C4A3AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3455A28319589C0600C4A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: First Data Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: First Data Corporation";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3455A28419589C0600C4A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: First Data Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: First Data Corporation";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3455A28619589C0600C4A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
+					2,
+					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
+					2,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "FD QSR SDK Demo";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3455A28719589C0600C4A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
+					2,
+					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
+					2,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "FD QSR SDK Demo";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3455A26019589C0600C4A3AB /* Build configuration list for PBXProject "Apple Pay Payeezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3455A28319589C0600C4A3AB /* Debug */,
+				3455A28419589C0600C4A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3455A28519589C0600C4A3AB /* Build configuration list for PBXNativeTarget "Apple Pay Payeezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3455A28619589C0600C4A3AB /* Debug */,
+				3455A28719589C0600C4A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3455A25D19589C0600C4A3AB /* Project object */;
+}
