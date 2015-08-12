@@ -26,29 +26,17 @@ To facilitate testing your Apple Pay integration within the Xcode simulator and
 on non-Apple Pay-enabled devices (i.e. anything other than an iPhone 6/+, iPad Air 2,
 or iPad Mini 3) we also provide a framework that mocks the Apple Pay functionality.
 
+## Supported Country: USA, UK
 
 ## BUILDING THE SAMPLE APP
 
 There are two build targets in the SampleCharge project: 
 
-   1. SampleCharge-Testing : this target builds a test-mode version of the app that
-      runs on all devices, including the Xcode simulator.  It includes the
-      MockAcadiaAPIs.framework which mocks the Apple Pay PaymentKit API’s.  You can 
-      use this target to develop and test your app, knowing that it will be
-      completely compatible with a production-mode build (see below)
+   1. FDApplePaySample : Sample shows one textbox to enter amount in USD. Select Auth/Purchase as for transaction, Enter amount > 1.00 and click on Pay button. Payment sheet will pop-up with shipping details and amount of transaction.  Please let us know if you find any issue with code or running the application.  
 
-   2. SampleCharge-iPhone6 : this target builds a production-mode version of the app
-      that can ONLY run on Apple Pay-enabled devices (see above).  Apple does not
-      provide a simulator that is compatible with Apple Pay, so this target’s
-      application can ONLY run on a device.  This target’s app interacts with the “live”
-      Apple Pay services and requires that an Apple Pay merchant ID has been configured
-      in your Apple Developer account and associated with an App ID.  You need to also
-      create a provisioning profile for your app that is associated with that App ID. 
-      Finally you need to configure the Build Settings of the app to utilize this
-      profile.  Payeezy simplifies the process of obtaining the cryptographic key
-      required for activating your Apple Pay merchant Id.  Refer to 
-      https://developer.apple.com/apple-pay/ and https://developer.payeezy.com for 
-      additional details.
+   2. LunchToGo : Lunch to GO! is similar application but with better functionality. Click on 'Edir Consumer Order', select fast food iteams and click on 'Authorize only' or 'Make Payment'. Payment sheet will pop-up with shipping details and amount of transaction.  Please let us know if you find any issue with code or running the application. 
+
+Both the applications are ready to go. No need to import SDK/Lib. its already integrated with. But you write new app then you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
 
 
 ## OBTAINING YOUR CREDENTIALS
