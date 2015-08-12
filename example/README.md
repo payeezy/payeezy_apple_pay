@@ -36,7 +36,7 @@ There are two build targets in the SampleCharge project:
 
    2. LunchToGo : Lunch to GO! is similar application but with better functionality. Click on 'Edir Consumer Order', select fast food iteams and click on 'Authorize only' or 'Make Payment'. Payment sheet will pop-up with shipping details and amount of transaction.  Please let us know if you find any issue with code or running the application. 
 
-Both the applications are ready to go. No need to import SDK/Lib. its already integrated with. But you write new app then you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
+Both the applications are integrated with import SDK/Lib. But for your new app, you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
 
 <div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay1.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay2.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay3.png" alt="sample app"/></div>
 
