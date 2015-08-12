@@ -38,7 +38,7 @@ There are two build targets in the SampleCharge project:
 
 Both the applications are integrated with import SDK/Lib. But for your new app, you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
 
-<div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay1.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay2.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay3.png" alt="sample app"/></div>
+<div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_landing_page.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_sheet.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_processing.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_done.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_confirmation.png" alt="sample app"/></div>
 
 ## OBTAINING YOUR CREDENTIALS
 
