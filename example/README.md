@@ -38,6 +38,7 @@ There are two build targets in the SampleCharge project:
 
 Both the applications are ready to go. No need to import SDK/Lib. its already integrated with. But you write new app then you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
 
+<div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay1.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay2.png" alt="sample app"/>&nbsp;&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/apple_pay3.png" alt="sample app"/></div>
 
 ## OBTAINING YOUR CREDENTIALS
 
