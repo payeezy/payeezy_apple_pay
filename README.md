@@ -26,7 +26,7 @@ and following code and country for US<br/>
 
 Refer [apple_pay081215.pdf](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay081215.pdf) for more details on Payeezy apple pay settings and configration. 
 
-Refer [apple_pay_quick_start(2.0).pdf](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay_quick_start(2.0).pdf) for more details on Payeezy apple pay codding.
+Refer [apple_pay_quick_start(2.0).pdf](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay_quick_start(2.0).pdf) for more details on Payeezy apple pay coding.
 
 
 Sample app:
