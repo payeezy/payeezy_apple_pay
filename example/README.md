@@ -40,12 +40,13 @@ There are two build targets in the SampleCharge project:
 
 2. LunchToGo : Lunch to GO! is similar application but with better functionality. Click on 'Edir Consumer Order', select fast food iteams and click on 'Authorize only' or 'Make Payment'. Payment sheet will pop-up with shipping details and amount of transaction.  Please let us know if you find any issue with code or running the application. 
 
-
-
 <div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_landing_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_order_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_sheet.png" alt="sample app"/>
 &nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_processing.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_done.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_confirmation.png" alt="sample app"/></div>
 
-Both the applications are integrated with import SDK/Lib. But for your new app, you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
+Both the applications are integrated with import SDK/Lib for US region. But for your new app, you may need to add sdk/lib to your project. Check MerchantMakePaymentViewController.m -> makePaymentOrAuthorization() for implemenation details  
+
+3. Apple Pay UK: Application demonstrate Apple Pay UK 
+
 
 ## OBTAINING YOUR CREDENTIALS
 
