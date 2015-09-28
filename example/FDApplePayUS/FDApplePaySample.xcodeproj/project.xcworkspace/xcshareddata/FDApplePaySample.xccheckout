@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B1FDD6D5-C839-4E1A-B202-351F74541464</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FDApplePaySample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5EEB48D2A955D12898D49817119D9F3E9269D0F2</key>
 		<string>https://github.com/payeezy/payeezy_apple_pay.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>example/FDApplePaySample/FDApplePaySample.xcodeproj/project.xcworkspace</string>
+	<string>example/FDApplePayUS/FDApplePaySample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5EEB48D2A955D12898D49817119D9F3E9269D0F2</key>

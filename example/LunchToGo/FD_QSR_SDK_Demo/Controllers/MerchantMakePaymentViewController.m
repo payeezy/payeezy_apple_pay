@@ -120,14 +120,17 @@
     }
 }
 
-- (IBAction)cancelOrder:(UIButton *)sender:(UIButton *)sender
+
+
+- (IBAction)cancelOrder:(UIButton *)sender
 {
     NSLog(@"Making an authorization only request.  Turn control over to FD SDK..");
-     QSROrder *order = [QSROrder theOrder];
-     order.deleteOrder;
+    QSROrder *order = [QSROrder theOrder];
+    order.deleteOrder;
+   
 }
 
-#pragma mark - Actions
+
 
 - (IBAction)makeAuthorization:(UIButton *)sender
 {

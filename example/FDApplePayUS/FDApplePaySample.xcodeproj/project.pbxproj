@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0EB9591BB9B4B000AC3390 /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CFA61B1D13BB00372683 /* InAppSDK.framework */; };
+		5C0EB95A1BB9B4C000AC3390 /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CF551B1D056C00372683 /* PayeezyClient.framework */; };
 		5C5A26581B751BC9008D9790 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5A26571B751BC9008D9790 /* StoreKit.framework */; };
 		9215CF241B1D047600372683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9215CF231B1D047600372683 /* main.m */; };
 		9215CF271B1D047600372683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9215CF261B1D047600372683 /* AppDelegate.m */; };
@@ -19,11 +21,9 @@
 		9215CF501B1D04AA00372683 /* ApplePayBTN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9215CF4C1B1D04AA00372683 /* ApplePayBTN@2x.png */; };
 		9215CF511B1D04AA00372683 /* ApplePayBTN@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9215CF4D1B1D04AA00372683 /* ApplePayBTN@3x.png */; };
 		9215CF521B1D04AA00372683 /* first-data-corporation.png in Resources */ = {isa = PBXBuildFile; fileRef = 9215CF4E1B1D04AA00372683 /* first-data-corporation.png */; };
-		9215CF561B1D056C00372683 /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CF551B1D056C00372683 /* PayeezyClient.framework */; };
 		9215CF591B1D058900372683 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CF571B1D057600372683 /* PassKit.framework */; };
 		9215CF621B1D0B5600372683 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CF601B1D0B4D00372683 /* SystemConfiguration.framework */; };
 		9215CF6A1B1D0E2900372683 /* FDApplePaySample.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 9215CF5F1B1D0B0800372683 /* FDApplePaySample.entitlements */; };
-		9215CFA71B1D13BB00372683 /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215CFA61B1D13BB00372683 /* InAppSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9215CFA71B1D13BB00372683 /* InAppSDK.framework in Frameworks */,
-				9215CF561B1D056C00372683 /* PayeezyClient.framework in Frameworks */,
+				5C0EB95A1BB9B4C000AC3390 /* PayeezyClient.framework in Frameworks */,
+				5C0EB9591BB9B4B000AC3390 /* InAppSDK.framework in Frameworks */,
 				5C5A26581B751BC9008D9790 /* StoreKit.framework in Frameworks */,
 				9215CF621B1D0B5600372683 /* SystemConfiguration.framework in Frameworks */,
 				9215CF591B1D058900372683 /* PassKit.framework in Frameworks */,
@@ -416,15 +416,12 @@
 		9215CF421B1D047600372683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FDApplePaySample/FDApplePaySample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FDApplePaySample",
-					"$(PROJECT_DIR)/FDApplePaySample/happyholidays/AppleUKTester",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FDApplePaySample/**";
 				INFOPLIST_FILE = FDApplePaySample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -439,15 +436,12 @@
 		9215CF431B1D047600372683 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FDApplePaySample/FDApplePaySample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FDApplePaySample",
-					"$(PROJECT_DIR)/FDApplePaySample/happyholidays/AppleUKTester",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FDApplePaySample/**";
 				INFOPLIST_FILE = FDApplePaySample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

@@ -14,7 +14,7 @@
 		<string>https://github.com/payeezy/payeezy_apple_pay.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>example/LunchToGo/Apple Pay Payeezy.xcodeproj</string>
+	<string>example/ApplePayUK/Apple Pay Payeezy.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5EEB48D2A955D12898D49817119D9F3E9269D0F2</key>

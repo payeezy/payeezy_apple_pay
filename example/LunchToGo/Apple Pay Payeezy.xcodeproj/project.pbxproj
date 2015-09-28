@@ -17,11 +17,11 @@
 		3455A27619589C0600C4A3AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3455A27519589C0600C4A3AB /* Images.xcassets */; };
 		34E20A3A195C92860069091C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E20A39195C92860069091C /* Main_iPhone.storyboard */; };
 		5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69AF1B6FBECB0035F60D /* StoreKit.framework */; };
-		5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */; };
-		5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */; };
 		5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BA1B6FC52C0035F60D /* SystemConfiguration.framework */; };
 		5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BC1B6FC5330035F60D /* PassKit.framework */; };
 		5C9A69CB1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9A69CA1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png */; };
+		5CF96F071BB9BAC000B642BD /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */; };
+		5CF96F081BB9BAC000B642BD /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */; };
 		9EE0DA251972D05E00DF4A71 /* QSRBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA211972D05D00DF4A71 /* QSRBadgeView.m */; };
 		9EE0DA261972D05E00DF4A71 /* QSROrderItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA231972D05E00DF4A71 /* QSROrderItemViewCell.m */; };
 		9EE0DA2F1972D0F400DF4A71 /* MerchantMakePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0DA2C1972D0F400DF4A71 /* MerchantMakePaymentViewController.m */; };
@@ -69,10 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF96F071BB9BAC000B642BD /* InAppSDK.framework in Frameworks */,
+				5CF96F081BB9BAC000B642BD /* PayeezyClient.framework in Frameworks */,
 				5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */,
 				5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */,
-				5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */,
-				5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */,
 				5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +200,7 @@
 		3455A25D19589C0600C4A3AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "First Data Corporation";
 				TargetAttributes = {
 					3455A26419589C0600C4A3AB = {
@@ -292,6 +292,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: First Data Corporation";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -365,14 +366,7 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
@@ -383,6 +377,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstdata.FDApplePaySample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "FD QSR SDK Demo";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,14 +392,7 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
@@ -415,6 +403,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstdata.FDApplePaySample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "FD QSR SDK Demo";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

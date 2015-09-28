@@ -16,9 +16,9 @@
 		3455A26E19589C0600C4A3AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455A26D19589C0600C4A3AB /* AppDelegate.m */; };
 		3455A27619589C0600C4A3AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3455A27519589C0600C4A3AB /* Images.xcassets */; };
 		34E20A3A195C92860069091C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E20A39195C92860069091C /* Main_iPhone.storyboard */; };
+		5C0EB95B1BB9B82E00AC3390 /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */; };
+		5C0EB95C1BB9B83D00AC3390 /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */; };
 		5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69AF1B6FBECB0035F60D /* StoreKit.framework */; };
-		5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B61B6FC38E0035F60D /* InAppSDK.framework */; };
-		5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69B81B6FC39B0035F60D /* PayeezyClient.framework */; };
 		5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BA1B6FC52C0035F60D /* SystemConfiguration.framework */; };
 		5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A69BC1B6FC5330035F60D /* PassKit.framework */; };
 		5C9A69CB1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9A69CA1B73B80D0035F60D /* Payeezy-DevelopersLogo_Horz-3.png */; };
@@ -69,10 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0EB95C1BB9B83D00AC3390 /* PayeezyClient.framework in Frameworks */,
+				5C0EB95B1BB9B82E00AC3390 /* InAppSDK.framework in Frameworks */,
 				5C9A69BD1B6FC5330035F60D /* PassKit.framework in Frameworks */,
 				5C9A69BB1B6FC52C0035F60D /* SystemConfiguration.framework in Frameworks */,
-				5C9A69B91B6FC39B0035F60D /* PayeezyClient.framework in Frameworks */,
-				5C9A69B71B6FC38E0035F60D /* InAppSDK.framework in Frameworks */,
 				5C9A69B01B6FBECB0035F60D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,14 +365,7 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
@@ -397,14 +390,7 @@
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"/Users/f9hj8jh/Documents/firstdata/projects/payeezy/apple_pay/junkfiles/Apple-Pay-Workspace",
-					2,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FD_QSR_SDK_Demo/Info.plist;
