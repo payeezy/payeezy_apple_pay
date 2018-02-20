@@ -1,11 +1,11 @@
-# Payeezy Apple Pay
+# Payeezy Apple Pay (In App)
 
 User Action: Buyer taps the Pay button in the App and selects the payment card and uses the Touch-ID to complete the transaction.
 
 1. The Merchant App communities with merchant server and creates a transaction ID
 2. The Merchant App obtains the encrypted transaction payload (The tokenized card data "DPAN", Cryptogram, and transaction details) 
    from Apple's Pass Kit Framework
-3. The Merchant App sends the encrypted transaction payload to Payeezy usig the Payeezy SDK
+3. The Merchant App sends the encrypted transaction payload to Payeezy using the Payeezy SDK
 4. Payeezy decrypts the encrypted transaction payload and processes the transaction
 5. Payeezy responds back to the Merchant App (Through the SDK) with either an approval or declination
 6. If provided, Payeezy sends out a transaction receipt to the merchant URL (Via a Webhook)
@@ -38,6 +38,12 @@ Lunch2Go App: (with Lunch Menu and option to add and remove items with Apple Pay
 <div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_landing_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_sheet.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_order_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_processing.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_done.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_confirmation.png" alt="sample app"/></div>
 
 For Code location: [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/LunchToGo)
+
+# Apple Pay on the Web
+
+User Action: Buyer clicks the Apple Pay button on the Web page and then selects the payment card and any additional options (such as expedited shipping from the Apple Pay text box. Buyer completes the transaction by using the Touch-ID on their iPhone.
+
+1. The Merchant App communities with merchant server and creates a transaction ID2. The Merchant App obtains the encrypted transaction payload (The tokenized card data "DPAN", Cryptogram, and transaction details)    from Apple's Pass Kit Framework3. The Merchant App sends the encrypted transaction payload to Payeezy using the Payeezy SDK4. Payeezy decrypts the encrypted transaction payload and processes the transaction5. Payeezy responds back to the Merchant App (Through the SDK) with either an approval or declination6. If provided, Payeezy sends out a transaction receipt to the merchant URL (Via a Webhook)
 
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
