@@ -1,6 +1,6 @@
-# Payeezy Apple Pay
+# Apple Pay
 
-First Data now supports both Apple Pay In-App and Apple Pay On the Web. 
+First Data now supports both Apple Pay In-App integrations and Apple Pay On the Web. 
 
 # Apple Pay - In App 
 
@@ -11,35 +11,36 @@ User Action: Buyer taps the Pay button in the App and selects the payment card a
    from Apple's Pass Kit Framework
 3. The Merchant App sends the encrypted transaction payload to Payeezy using the Payeezy SDK
 4. Payeezy decrypts the encrypted transaction payload and processes the transaction
-5. Payeezy responds back to the Merchant App (Through the SDK) with either an approval or declination
-6. If provided, Payeezy sends out a transaction receipt to the merchant URL (Via a Webhook)
+5. Payeezy responds back to the Merchant App (Through the SDK) with either an approval or a decline
+6. If provided, Payeezy sends out a transaction receipt to the merchant URL (via a Webhook)
 
 For more information on Apple Pay - US [click here](http://www.apple.com/apple-pay/) 
 and For Apple Pay - UK [click here](https://www.apple.com/uk/apple-pay/) 
 
-#Apple Pay Supported ``Merchant's`` domicile country
-Now apple pay is supported in UK as well as US. For more information on Payeezy Supported method/API [click here](https://developer.payeezy.com/select-your-integration-method) 
+# Apple Pay Supported ``Merchant's`` domicile country
 
-Use following code and country for UK <br/>
+Apple Pay is supported in the UK as well as the US. For more information on Payeezy Supported method/API [click here](https://developer.payeezy.com/select-your-integration-method) 
+
+Use the following code and country for UK <br/>
 \#define CURRENCY_CODE @“GBP” <br/>
 \#define COUNTRY_CODE @“UK" 
 
-and following code and country for US<br/>
+and the following code and country for US<br/>
 \#define CURRENCY_CODE @"USD"<br/>
 \#define COUNTRY_CODE @"US"
 
-Refer [apple_pay081215.pdf](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay081215.pdf) for more details on Payeezy apple pay settings and configration. 
+Refer to the [Apple Pay Integration Guide](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay081215.pdf) for more details on First Data Apple Pay settings and configuration. 
 
-Refer [apple_pay_quick_start(2.0).pdf](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay_quick_start(2.0).pdf) for more details on Payeezy apple pay coding.
+Refer to the [Apple Pay Quick Start Guide (2.0)](https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/apple_pay_quick_start(2.0).pdf) for more details on Payeezy Apple Pay coding.
 
 ## Sample App (with textbox and Apple Pay button)
 <div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_landing_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_sheet.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_processing.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_done.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/simple_app_payment_confirmation.png" alt="sample app"/></div>
 
-For Code location: [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/FDApplePaySample)
+For the sample app, [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/FDApplePaySample)
 
 Lunch2Go App: (with Lunch Menu and option to add and remove items with Apple Pay button)<div><img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_landing_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_sheet.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_order_page.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_processing.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_done.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/raw/master/guide/images/ltg_app_payment_confirmation.png" alt="sample app"/></div>
 
-For Code location: [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/LunchToGo)
+For the Lunch2Go sample app code, [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/LunchToGo)
 
 # Apple Pay - On the Web
 
@@ -55,9 +56,9 @@ User Action: Buyer clicks the Apple Pay button on the mobile Web page and then s
 6. If provided, Payeezy sends out a transaction receipt to the merchant URL (Via a Webhook)
 
 ## Sample App (with Apple Pay button on mobile web page, payment text box, and confirmation screens on associated iPhone)
-<div><img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtPgButton.png" alt="sample app"/>&nbsp;<br>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtTextBox.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtTextBox-Pymt%20Method.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymntTextBox-SubtotalAddition-shipping.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PhoneConfirmScreen.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PhoneDoneScreen.png" alt="sample app"/></div>
+<div><img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtPgButton.png" alt="sample app"/>&nbsp;<br>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtTextBox.png" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymtTextBox-Pymt%20Method.png" width="349" height="281" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PymntTextBox-SubtotalAddition-shipping.png" width="349" height="281" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PhoneConfirmScreen.png" width="299" height="532" alt="sample app"/>&nbsp;<img src="https://github.com/payeezy/payeezy_apple_pay/blob/master/guide/images/ApplePayWeb-PhoneDoneScreen.png" width="299" height="532" alt="sample app"/></div>
 
-For Code location: [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/FDApplePaySample)
+For the Apple Pay On the Web sample application: [click here](https://github.com/payeezy/payeezy_apple_pay/tree/master/example/FDApplePaySample)
 
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
@@ -68,13 +69,13 @@ Using below listed steps, you can easily integrate your mobile/web payment appli
 
 ![alt tag](https://github.com/payeezy/get_started_with_payeezy/raw/master/payeezy_flow_diagram.png)
 
-For more information on getting started, visit  [get_start_with_payeezy guide] (https://github.com/payeezy/get_started_with_payeezy/blob/master/get_started_with_payeezy042015.pdf) or [download](https://github.com/payeezy/get_started_with_payeezy/raw/master/get_started_with_payeezy042015.pdf)
+For more information on getting started, visit  [Getting Started](https://github.com/payeezy/get_started_with_payeezy/blob/master/get_started_with_payeezy042015.pdf) or [download](https://github.com/payeezy/get_started_with_payeezy/raw/master/get_started_with_payeezy042015.pdf)
 
 # Testing - Payeezy {SANDBOX region}
-For test credit card,eCheck,GiftCard please refer to [test data ](https://github.com/payeezy/testing_payeezy/blob/master/payeezy_testdata042015.pdf) or [download] (https://github.com/payeezy/testing_payeezy/raw/master/payeezy_testdata042015.pdf)
+For test credit cards, eChecks, or gift cards, please refer to the [test data PDF](https://github.com/payeezy/testing_payeezy/blob/master/payeezy_testdata042015.pdf) or [download] (https://github.com/payeezy/testing_payeezy/raw/master/payeezy_testdata042015.pdf)
 
 # Error code/response - Payeezy {SANDBOX/PROD region}
-For HTTP status code, API Error codes and error description please refer to [API error code ](https://developer.payeezy.com/payeezy_new_docs/apis) and select your API
+For HTTP status codes, API error codes and error descriptions, please refer to the [API list page](https://developer.payeezy.com/payeezy_new_docs/apis) and select your API. The response codes are shown on each API page.
 
 #Questions?
 We're always happy to help with code or other questions you might have! Check out [FAQ page](https://developer.payeezy.com/faq-page) or call us. 
