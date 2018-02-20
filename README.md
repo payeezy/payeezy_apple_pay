@@ -71,14 +71,14 @@ Using below listed steps, you can easily integrate your mobile/web payment appli
 
 For more information on getting started, visit  [Getting Started](https://github.com/payeezy/get_started_with_payeezy/blob/master/get_started_with_payeezy042015.pdf) or [download](https://github.com/payeezy/get_started_with_payeezy/raw/master/get_started_with_payeezy042015.pdf)
 
-# Testing - Payeezy {SANDBOX region}
-For test credit cards, eChecks, or gift cards, please refer to the [test data PDF](https://github.com/payeezy/testing_payeezy/blob/master/payeezy_testdata042015.pdf) or [download] (https://github.com/payeezy/testing_payeezy/raw/master/payeezy_testdata042015.pdf)
+## Testing - Payeezy {SANDBOX region}
+For test credit cards, eChecks, or gift cards, please refer to the [test data PDF](https://github.com/payeezy/testing_payeezy/blob/master/payeezy_testdata042015.pdf) or [download](https://github.com/payeezy/testing_payeezy/raw/master/payeezy_testdata042015.pdf) it.
 
-# Error code/response - Payeezy {SANDBOX/PROD region}
+## Error code/response - Payeezy {SANDBOX/PROD region}
 For HTTP status codes, API error codes and error descriptions, please refer to the [API list page](https://developer.payeezy.com/payeezy_new_docs/apis) and select your API. The response codes are shown on each API page.
 
-#Questions?
-We're always happy to help with code or other questions you might have! Check out [FAQ page](https://developer.payeezy.com/faq-page) or call us. 
+## Questions?
+We're always happy to help with code or other questions you might have! Check out our [FAQ page](https://developer.payeezy.com/faq-page) or call us. 
 
 ## Contributing
 
